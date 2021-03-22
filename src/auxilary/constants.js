@@ -1,0 +1,11 @@
+export const Primary = 'Primary'
+export const Danger = 'Danger'
+export const Success = 'Success'
+export const Warning = 'Warning'
+export const ButtonStyleInit = 'buttonArea__button'
+export const LoaderStyleInit = 'loader'
+export const styleBlock = 'block'
+export const styleLarge = 'large'
+export const styleMin = 'min'
+export const textConst = ['Primary__text', 'Danger__text', 'Success__text', 'Warning__text']
+export const outlineConst = ['Primary__outline', 'Danger__outline', 'Success__outline', 'Warning__outline']

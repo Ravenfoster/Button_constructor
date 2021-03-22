@@ -1,0 +1,40 @@
+
+.modifier
+  background-color: #eaeaea
+  display: flex
+  justify-content: space-around
+  position: relative
+  label
+    cursor: pointer
+    &:hover
+      color: #1815de
+  input
+    cursor: pointer
+    &:active
+      color: none
+
+  &__block
+    display: block
+    padding: 10px
+
+    input
+      margin-right: 5px
+
+  &__dropdown
+    width: 100px
+    position: absolute
+    top: 37px
+    right: 0px
+    background-color: #eaeaea
+    z-index: 1
+
+    div
+      margin: 10px
+
+    input
+      margin-right: 5px
+
+.type
+  cursor: pointer
+  &:hover
+    color: #1815de
